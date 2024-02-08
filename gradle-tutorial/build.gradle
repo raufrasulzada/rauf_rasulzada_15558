@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.raufrasulzada.GradleTutorial'
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+}
